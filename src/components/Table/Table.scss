@@ -1,0 +1,36 @@
+.table {
+  margin: auto;
+  margin-top: 50px;
+  border-collapse: separate;
+  border-spacing: 10px;
+
+  &__item {
+    width: 40px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: 0.1s;
+    box-shadow: 8px 6px 5px -9px rgba(0,0,0,0.47);
+    user-select: none;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &--sum {
+      color: #fff;
+      background-color: #B23850;
+    }
+
+    &--foot {
+      background-color: #C4DBF6;
+      margin-bottom: 50px;
+    }
+
+    &--highlight {
+      color: #fff;
+      background-color: #3B8BEB;
+    }
+  }
+}
